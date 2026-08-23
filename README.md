@@ -8,8 +8,6 @@ Sentiment, priorítás, magabiztosság, ügykezelés — a válasz sablonból k�
 
 A fiktív cég: **Alföld Informatika**. Helyi magyar modellek, **nincs LLM API**. A demóban az oldal most kézi kapcsoló; élesben az IP választana.
 
-GitHub About mezőbe másolható: [`github-about.txt`](github-about.txt).
-
 Ez a mappa a későbbi nyilvános showcase-repo vázlata (nem a teljes fejlesztői projekt). A kód, a modellek és a címkézett jegyek **nincsenek** itt. Részletes mérés: [`docs/projektnaplo.md`](../projektnaplo.md). Rövid ív: [`HALADAS.md`](HALADAS.md).
 
 ## Tech
