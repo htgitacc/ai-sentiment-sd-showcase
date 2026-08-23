@@ -1,10 +1,16 @@
 # Ügyfélszolgálati AI prototípus — bemutató
 
-Helyi, **magyar** ügyfélszolgálati demó: hangvétel, priorítás, tudásbázis-találat és sablonlevél — **LLM API nélkül**. A fiktív cég: **Alföld Informatika**.
+Egy ügyfélszolgálati portál, két megjelenés: az **IP** dönti el, hogy ügyfél- vagy dolgozói felületet kapsz.
 
-Ez a mappa a későbbi nyilvános showcase-repo vázlata (nem a teljes fejlesztői projekt). A kód, a modellek és a címkézett jegyek **nincsenek** itt.
+**Kívül** a hangvételt saját jegyeiden feltanított modell pontozza. **Belül** a válasz a céges tudásbázisból jön (RAG).
 
-Részletes mérés és tanulság: [`docs/projektnaplo.md`](../projektnaplo.md). Rövid ív: [`HALADAS.md`](HALADAS.md). Operátori forgatókönyv + mikor mit fotózz: [`bemutato.md`](bemutato.md).
+Sentiment, priorítás, magabiztosság, ügykezelés — a válasz sablonból készül, nem külső nyelvi modellből.
+
+A fiktív cég: **Alföld Informatika**. Helyi magyar modellek, **nincs LLM API**. A demóban az oldal most kézi kapcsoló; élesben az IP választana.
+
+GitHub About mezőbe másolható: [`github-about.txt`](github-about.txt).
+
+Ez a mappa a későbbi nyilvános showcase-repo vázlata (nem a teljes fejlesztői projekt). A kód, a modellek és a címkézett jegyek **nincsenek** itt. Részletes mérés: [`docs/projektnaplo.md`](../projektnaplo.md). Rövid ív: [`HALADAS.md`](HALADAS.md).
 
 ## Tech
 
@@ -28,7 +34,7 @@ Hogyan jutott ide (egy mondat / lépés): helyi két modell → priorítás → 
 
 ## Működés — bemutató
 
-A képek a [`kepek/`](kepek/) mappában vannak. Élő sorrend: [`bemutato.md`](bemutato.md).
+A képek a [`kepek/`](kepek/) mappában vannak.
 
 ### 1. Ugyanaz a képernyő, két oldal
 
@@ -68,4 +74,4 @@ Nem klónoz automatikusan. A gombon látszik, melyik `#id` frissül.
 
 ## Mit nem állítok
 
-A holdout nem gyártási pontosság. Az eval 12 mondat kicsi. Nincs Gemini/Groq-levél. A cég fiktív.
+A holdout nem gyártási pontosság. Az eval 12 mondat kicsi. Nincs Gemini/Groq-levél. A cég fiktív. Az IP-alapú oldal a termékterv; a képernyőn most rádió van.
