@@ -10,7 +10,7 @@ A fiktív cég: **Alföld Informatika**. Helyi magyar modellek, **nincs LLM API*
 
 Ez a **nyilvános bemutató**: tech, rövid ív és képernyőképek. Nincs itt a futtatható kód, a modellek és a címkézett jegyek. A lépések összesűrítve: [`HALADAS.md`](HALADAS.md).
 
-Maga a fejlesztés AI-asszisztált módszerrel ("vibe coding") készül(t).
+A fejlesztés AI-asszisztált módszerrel ("vibe coding") készül(t).
 
 ## Tech
 
