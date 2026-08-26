@@ -72,4 +72,4 @@ Nem klónoz automatikusan. A gombon látszik, melyik `#id` frissül.
 
 ## Mit nem állítok
 
-A holdout nem gyártási pontosság. Az eval 12 mondat kicsi. Nincs Gemini/Groq-levél. A cég fiktív. Az IP-alapú oldal a termékterv; a képernyőn most rádió van.
+A holdout nem gyártási pontosság. Az eval 12 mondat kicsi. Nincs Gemini/Groq-levél. A cég fiktív. Az IP-alapú oldal a termékterv, a képernyőn most rádió van.
